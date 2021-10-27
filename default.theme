@@ -1,0 +1,122 @@
+# IceWM theme.
+ThemeAuthor                    = crolsma
+ThemeDescription               = "A gray and teal theme with minimal aesthetics."
+Look                           = flat
+
+# Borders.
+BorderSizeX                    = 2
+BorderSizeY                    = 2
+TitleBarHeight                 = 22
+TitleBarJustify                = 50
+TitleButtonsSupported          =
+
+# Fonts.
+TitleFontNameXft               = $fontname:size=$fontsize
+MenuFontNameXft                = $fontname:size=$fontsize
+StatusFontNameXft              = $fontname:size=$fontsize
+QuickSwitchFontNameXft         = $fontname:size=$fontsize
+NormalButtonFontNameXft        = $fontname:size=$fontsize
+ActiveButtonFontNameXft        = $fontname:size=$fontsize
+NormalTaskBarFontNameXft       = $fontname:size=$fontsize
+ActiveTaskBarFontNameXft       = $fontname:size=$fontsize
+ToolButtonFontNameXft          =
+NormalWorkspaceFontNameXft     =
+ActiveWorkspaceFontNameXft     =
+MinimizedWindowFontNameXft     = $fontname:size=$fontsize
+ListBoxFontNameXft             = $fontname:size=$fontsize
+ToolTipFontNameXft             = $fontname:size=$fontsize
+ClockFontNameXft               = $fontname:size=$fontsize
+TempFontNameXft                = $fontname:size=$fontsize
+ApmFontNameXft                 = $fontname:size=$fontsize
+InputFontNameXft               = $fontname:size=$fontsize
+LabelFontNameXft               = $fontname:size=$fontsize
+
+# Colors.
+ColorDialog                    = $background
+
+ColorNormalBorder              = $background
+ColorActiveBorder              = $background
+
+ColorNormalButton              = $button
+ColorNormalButtonText          = $foreground
+ColorActiveButton              = $highlight
+ColorActiveButtonText          = $foreground
+
+ColorNormalTitleBar            = $background
+ColorNormalTitleBarText        = $lowlight
+ColorActiveTitleBar            = $background
+ColorActiveTitleBarText        = $foreground
+
+ColorNormalMinimizedWindow     = $button
+ColorNormalMinimizedWindowText = $foreground
+ColorActiveMinimizedWindow     = $highlight
+ColorActiveMinimizedWindowText = $foreground
+
+ColorNormalMenu                = $background
+ColorNormalMenuItemText        = $foreground
+ColorActiveMenuItem            = $highlight
+ColorActiveMenuItemText        = $foreground
+ColorDisabledMenuItemText      = $lowlight
+
+ColorMoveSizeStatus            = $background
+ColorMoveSizeStatusText        = $foreground
+
+ColorQuickSwitch               = $background
+ColorQuickSwitchText           = $foreground
+ColorQuickSwitchActive         = $highlight
+
+ColorDefaultTaskBar            = $background
+ColorNormalTaskBarApp          = $button
+ColorNormalTaskBarAppText      = $foreground
+ColorActiveTaskBarApp          = $highlight
+ColorActiveTaskBarAppText      = $foreground
+ColorMinimizedTaskBarApp       = $button
+ColorMinimizedTaskBarAppText   = $lowlight
+ColorInvisibleTaskBarApp       = $background
+ColorInvisibleTaskBarAppText   = $lowlight
+
+ColorScrollBar                 = $background
+ColorScrollBarSlider           = $button
+ColorScrollBarButton           = $button
+ColorScrollBarButtonArrow      = $foreground
+ColorScrollBarInactiveArrow    = $lowlight
+
+ColorListBox                   = $background
+ColorListBoxText               = $foreground
+ColorListBoxSelection          = $highlight
+ColorListBoxSelectionText      = $foreground
+
+ColorToolTip                   = $background
+ColorToolTipText               = $foreground
+
+ColorLabel                     = $background
+ColorLabelText                 = $foreground
+
+ColorInput                     = $background
+ColorInputText                 = $foreground
+ColorInputSelection            = $highlight
+ColorInputSelectionText        = $foreground
+
+ColorClock                     =
+ColorClockText                 = $foreground
+
+ColorApmBattary                = $foreground
+ColorApmLine                   = $highlight
+ColorApmGraphBg                = $monitor
+
+ColorCPUStatusUser             = $highlight
+ColorCPUStatusSystem           = $foreground
+ColorCPUStatusIdle             = $monitor
+
+ColorMEMStatusFree             = $monitor
+
+ColorNetSend                   = $foreground
+ColorNetReceive                = $highlight
+ColorNetIdle                   = $monitor
+
+# Desktop background.
+DesktopBackgroundCenter        = 1
+DesktopBackgroundImage         = image.jpg
+
+# Task Bar Style.
+TaskBarClockLeds               = 0
