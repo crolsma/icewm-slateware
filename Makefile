@@ -30,3 +30,6 @@ $(theme)/image.jpg: $(theme) image.jpg
 
 $(theme):
 	mkdir -p -- $@
+
+uninstall:
+	rm -fr -- $(theme)
