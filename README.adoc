@@ -1,0 +1,28 @@
+= IceWM Slateware Theme
+
+A gray and teal theme with minimal aesthetics.
+It started as only a predefined theme,
+but the Makefile now allows for easy changes to the font and colors.
+
+image::screenshot.png[]
+
+== Installation
+
+`make [XDG_CONFIG_HOME=path] [attribute=value]`
+
+Possible attributes are:
+
+* `fontname`
+* `fontsize`
+* `background`
+* `foreground`
+* `highlight`
+* `lowlight`
+* `button`
+* `monitor`
+
+Consult the Makefile for default values.
+
+== TODO
+
+Upload screenshot and background images.
