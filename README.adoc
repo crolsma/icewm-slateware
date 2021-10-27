@@ -22,7 +22,3 @@ Possible attributes are:
 * `monitor`
 
 Consult the Makefile for default values.
-
-== TODO
-
-Upload screenshot and background images.
