@@ -3,7 +3,7 @@
 .POSIX:
 XDG_CONFIG_HOME = $(HOME)/.config
 theme           = $(XDG_CONFIG_HOME)/icewm/themes/slateware
-fontname        = sans
+fontname        = source sans pro
 fontsize        = 12
 background      = \#333333
 foreground      = \#faf0e6
