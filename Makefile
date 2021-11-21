@@ -23,7 +23,8 @@ $(theme)/default.theme: $(theme) default.theme
 	    -e 's/$$highlight/"$(highlight)"/' \
 	    -e 's/$$lowlight/"$(lowlight)"/' \
 	    -e 's/$$button/"$(button)"/' \
-	    -e 's/$$monitor/"$(monitor)"/' default.theme > $@
+	    -e 's/$$monitor/"$(monitor)"/' \
+	    default.theme > $@
 
 $(theme)/image.jpg: $(theme) image.jpg
 	cp -- image.jpg $@
