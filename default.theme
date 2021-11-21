@@ -100,17 +100,17 @@ ColorInputSelectionText        = $foreground
 ColorClock                     =
 ColorClockText                 = $foreground
 
-ColorApmBattary                = $foreground
+ColorApmBattary                = $lowlight
 ColorApmLine                   = $highlight
 ColorApmGraphBg                = $monitor
 
 ColorCPUStatusUser             = $highlight
-ColorCPUStatusSystem           = $foreground
+ColorCPUStatusSystem           = $lowlight
 ColorCPUStatusIdle             = $monitor
 
 ColorMEMStatusFree             = $monitor
 
-ColorNetSend                   = $foreground
+ColorNetSend                   = $lowlight
 ColorNetReceive                = $highlight
 ColorNetIdle                   = $monitor
 
