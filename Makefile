@@ -27,7 +27,7 @@ $(theme)/default.theme: default.theme
 	    -e 's/$$button/"$(button)"/' \
 	    -e 's/$$monitor/"$(monitor)"/' \
 	    default.theme \
-			> $@
+	    > $@
 
 $(theme)/image.jpg: $(theme)
 $(theme)/image.jpg: image.jpg
