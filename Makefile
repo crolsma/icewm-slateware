@@ -1,5 +1,4 @@
 # IceWM slateware Makefile.
-
 .POSIX:
 
 XDG_CONFIG_HOME = $(HOME)/.config
